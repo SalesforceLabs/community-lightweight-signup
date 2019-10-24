@@ -1,0 +1,6 @@
+<design:component>
+    <design:attribute name="title" label="Title" description="Title of the Card" />
+    <design:attribute name="flowName" label="Flow Name (API)" description="The name of the flow to show" />
+    <design:attribute name="acceptedUrlParams" label="List of Url Params" description="List of Url Params to accept, comma separated" />
+    <design:attribute name="includeCurrentUrl" label="Include Current URL" description="If desired, will pass current url to Flow input called currenturl" />
+</design:component>

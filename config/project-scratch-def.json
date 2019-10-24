@@ -1,0 +1,15 @@
+{
+  "orgName": "Community Lightweight Signup",
+  "edition": "Developer",
+  "features": [
+    "Communities",
+    "SiteDotCom",
+    "Sites"
+  ],
+  "settings": {
+    "orgPreferenceSettings": {
+      "networksEnabled": true,
+      "s1DesktopEnabled": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Newsletter__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Newsletter__cs.json"
+        ]
+    },
+    {
+        "sobject": "Newsletter_Subscription__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Newsletter_Subscription__cs.json"
+        ]
+    }
+]

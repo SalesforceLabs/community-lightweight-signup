@@ -1,0 +1,8 @@
+SELECT Id, FirstName__c, LastName__c, Email__c,
+(
+    SELECT Id, Status__c
+    FROM Newsletter_Subscriptions__r
+    ORDER BY Newsletter__r.Title__c
+)
+FROM Signup__c
+ORDER BY LastName__c, FirstName__c

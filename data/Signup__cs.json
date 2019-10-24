@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Signup__c",
+                "referenceId": "Signup__cRef1"
+            },
+            "FirstName__c": "Olivia",
+            "LastName__c": "Reyes",
+            "Email__c": "oreyes@example.com"
+        },
+        {
+            "attributes": {
+                "type": "Signup__c",
+                "referenceId": "Signup__cRef2"
+            },
+            "FirstName__c": "Marcus",
+            "LastName__c": "Wright",
+            "Email__c": "mwright@example.com"
+        }
+    ]
+}

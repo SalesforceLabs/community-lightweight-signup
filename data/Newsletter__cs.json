@@ -1,0 +1,28 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Newsletter__c",
+                "referenceId": "Newsletter__cRef1"
+            },
+            "Title__c": "Fresh Thoughts",
+            "Category__c": "News"
+        },
+        {
+            "attributes": {
+                "type": "Newsletter__c",
+                "referenceId": "Newsletter__cRef2"
+            },
+            "Title__c": "The Pet Gazette",
+            "Category__c": "Information"
+        },
+        {
+            "attributes": {
+                "type": "Newsletter__c",
+                "referenceId": "Newsletter__cRef3"
+            },
+            "Title__c": "Thoughts from the Razor’s Edge",
+            "Category__c": "Product"
+        }
+    ]
+}

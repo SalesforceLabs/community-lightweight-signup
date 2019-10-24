@@ -1,0 +1,24 @@
+<!--
+/*
+ * Copyright (c) 2018, salesforce.com, inc.
+ * All rights reserved.
+ * SPDX-License-Identifier: BSD-3-Clause
+ * For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
+ */
+-->
+<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global" >
+    <aura:attribute name="acceptedUrlParams" type="String" access="global" />
+    <aura:attribute name="title" type="String" default="Newsletters" access="global" />
+    <aura:attribute name="flowName" type="String" access="global" />
+    <aura:attribute name="includeCurrentUrl" type="Boolean" access="global" />
+
+    <aura:attribute name="urlParams" type="String[]" access="private" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <lightning:card title="{! v.title }" iconName="standard:link">
+        <p class="slds-p-horizontal_small">
+            <lightning:flow aura:id="flowId" />
+        </p>
+    </lightning:card>
+</aura:component>

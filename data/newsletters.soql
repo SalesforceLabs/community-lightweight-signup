@@ -1,0 +1,8 @@
+SELECT Id, Title__c, Category__c,
+(
+    SELECT Id, Status__c
+    FROM Newsletter_Subscriptions__r
+    ORDER BY Newsletter__r.Title__c
+)
+FROM Newsletter__c
+ORDER BY Title__c

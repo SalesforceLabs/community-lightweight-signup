@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="datatableFSC Row Action Event">
+    <aura:attribute name="action" type="Object"/>
+    <aura:attribute name="row" type="Object"/>
+</aura:event>

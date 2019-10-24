@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Newsletter_Subscription__c",
+                "referenceId": "Newsletter_Subscription__cRef1"
+            },
+            "Status__c": "Active",
+            "Signup__c": "@Signup__cRef1",
+            "Newsletter__c": "@Newsletter__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Newsletter_Subscription__c",
+                "referenceId": "Newsletter_Subscription__cRef2"
+            },
+            "Status__c": "Inactive",
+            "Signup__c": "@Signup__cRef1",
+            "Newsletter__c": "@Newsletter__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "Newsletter_Subscription__c",
+                "referenceId": "Newsletter_Subscription__cRef3"
+            },
+            "Status__c": "Active",
+            "Signup__c": "@Signup__cRef2",
+            "Newsletter__c": "@Newsletter__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Newsletter_Subscription__c",
+                "referenceId": "Newsletter_Subscription__cRef4"
+            },
+            "Status__c": "Active",
+            "Signup__c": "@Signup__cRef2",
+            "Newsletter__c": "@Newsletter__cRef3"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+<design:component label="Newsletter Subscriptions DataTable">
+    <design:attribute name="signupId" label="Parent - Signup Id"/>
+    <design:attribute name="refreshDataTable" label="Refresh Data Table" description="This will be set to true when the data table wants to be refreshed" />
+    <design:attribute name="refreshId" label="Refresh Id" description="When needing a refresh, this is the record id to update" />
+</design:component>
