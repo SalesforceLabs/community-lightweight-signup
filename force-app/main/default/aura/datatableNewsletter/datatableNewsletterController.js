@@ -13,7 +13,7 @@
             type: 'button',
             typeAttributes: {
                 label: {
-                    fieldName: 'c25lws__ActionLabel__c'
+                    fieldName: 'ActionLabel__c'
                 },
                 title: 'Click to Edit',
                 name: 'updateSubscription',

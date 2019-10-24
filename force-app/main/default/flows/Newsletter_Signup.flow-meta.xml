@@ -406,7 +406,7 @@
         </connector>
         <fields>
             <name>LC_DataTableNewletter</name>
-            <extensionName>c25lws:datatableNewsletter</extensionName>
+            <extensionName>c:datatableNewsletter</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>signupId</name>

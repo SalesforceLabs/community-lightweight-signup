@@ -40,10 +40,10 @@
                     singleSelection="{! v.singleSelection }"
                     hideCheckboxColumn="true"
                     
-                    column01_fieldName="c25lws__Newsletter_Title__c"
+                    column01_fieldName="Newsletter_Title__c"
                     column01_label="Newsletter"
                     column01_type="text"
-                    column02_fieldName="c25lws__Status__c"
+                    column02_fieldName="Status__c"
                     column02_label="Status"
                     column02_type="text"
                     />    

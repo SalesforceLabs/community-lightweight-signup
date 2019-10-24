@@ -21,7 +21,7 @@ Find the package at https://appexchange.salesforce.com/appxListingDetail?listing
     ```
 1. Assign permission set
     ```sh
-    sfdx force:user:permset:assign -u signuporg -n SignUp
+    sfdx force:user:permset:assign -u signuporg -n Lightweight_SignUp
     ```
 1. Set Default Data
     ```sh
